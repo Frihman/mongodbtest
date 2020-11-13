@@ -52,7 +52,7 @@ app.post('/add', urlencodedParser, (req, res) => {
     console.log(user.firstName + user.lastName + ' saved to db');
   });
   
-  res.render('index', { title: 'Customers' });
+  res.redirect('/');
 });
 
 // catch 404 and forward to error handler
