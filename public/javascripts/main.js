@@ -1,4 +1,6 @@
-fetch('http://localhost:3000/query')
+var url = 'https://pixmongodbtest.herokuapp.com/query' || 'http://localhost:3000/query';
+
+fetch(url)
 .then (response => response.json())
 .then(data => {
     
