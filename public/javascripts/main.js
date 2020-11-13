@@ -1,4 +1,7 @@
-var url = 'https://pixmongodbtest.herokuapp.com/query' || 'http://localhost:3000/query';
+//'http://localhost:3000/query'
+//'https://pixmongodbtest.herokuapp.com/query'
+
+var url = 'https://pixmongodbtest.herokuapp.com/query';
 
 fetch(url)
 .then (response => response.json())
